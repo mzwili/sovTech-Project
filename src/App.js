@@ -31,7 +31,7 @@ export default function App(){
             Hi, I'm Thuthukani Mthiyane <span className="wavingHand">👋🏿</span>
             </p>
             <p className="In-text ">
-              I'm a Software Engineering Student at WeThinkCode_. My Passion for coding stems from curisity and problem solving. I want to become a software engineer as I want to contribute into building software applications that will solve problems.
+              I'm a Software Engineering Student at WeThinkCode_. My Passion for coding stems from curiosity and problem solving. I want to become a software engineer as I want to contribute into building software applications that will solve problems.
             </p>
             <div className="contact-icons d-flex flex-row justify-content-around">
               <a href="mailt:mthiyanemzwili@gmail.com" target="_blank" rel="noopener noreferrer"><span className="email-icon"><i class="fa-solid fa-envelope"></i></span></a>

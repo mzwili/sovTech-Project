@@ -3,13 +3,7 @@ import "./AppStyle.css"
 
 export default function App(){
   const [opennav, setopennav] = useState(false);
-  // function SetAllFalse(){
-
-  // }
-  // function ChangeState(function1, state1){
-  //   SetAllFalse();
-  //   function1(state1);
-  // }
+  
   return <div className="App">
     <div className=" navbar-option-mobile bg-new">
       <div className="d-flex flex-row justify-content-between">
@@ -31,13 +25,13 @@ export default function App(){
       
 
       <div className="landingPage-content row justify-content-center" id="home-page">
-        <div className="col-lg-6 col-md-6 col-sm-12" >
+        <div className=" text-div col-lg-6 col-md-6 col-sm-12" >
           <div className="d-flex flex-column justify-content-center In-text-section">
             <p className="In-text">
             Hi, I'm Thuthukani Mthiyane <span className="wavingHand">👋🏿</span>
             </p>
             <p className="In-text ">
-              I'm a Software Engineering Student at WeThinkCode_
+              I'm a Software Engineering Student at WeThinkCode_. My Passion for coding stems from curisity and problem solving. I want to become a software engineer as I want to contribute into building software applications that will solve problems.
             </p>
             <div className="contact-icons d-flex flex-row justify-content-around">
               <a href="mailt:mthiyanemzwili@gmail.com" target="_blank" rel="noopener noreferrer"><span className="email-icon"><i class="fa-solid fa-envelope"></i></span></a>

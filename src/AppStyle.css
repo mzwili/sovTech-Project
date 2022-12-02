@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+  --main-color: #0e78c4;
+  --secondary-color: #ffffff;
+}
+
+.App {
+
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landingPage {
+  background: var(--main-color);
+  clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.bg-new {
+  background-color: var(--main-color);
+}
+.px-9 {
+  padding-inline: 90px;
+}
+.page-links {
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+
+.page-links:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.logo{
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
+
+.px-10 {
+  padding-inline: 90px;
+}
+
+.landingPage-content {
+  padding-top: 60px;
+}
+
+.In-text-section {
+  padding-left: 52px;
+  text-align: center;
+}
+
+.In-text{
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.about-btn {
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+}
+
+.about-btn:hover {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  border-color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-btn {
+  font-size: 1.3rem;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  animation: button-hover 2s ease-in-out infinite;
+}
+
+.project-btn:hover {
+  color: var(--secondary-color);
+  background-color: var(--main-color);
+  border-color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+  animation: button-hover 2s ease-in-out;
+}
+
+@keyframes button-hover {
+  0% {
+    transform: scale(1);
+  }
+  
+  50% {
+    transform: scale(1.1);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+.custom-img {
+  width: 300px;
+  border-radius: 50%;
+  justify-content: center;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.wavingHand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg); }
+   10% { transform: rotate(-10.0deg); }
+   20% { transform: rotate( 12.0deg); }
+   30% { transform: rotate(-10.0deg); }
+   40% { transform: rotate(  9.0deg); }
+   50% { transform: rotate(  0.0deg); }
+  100% { transform: rotate(  0.0deg); }
+}
+
+/*Icons color*/
+
+.fa-envelope {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.fa-location-dot {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.fa-linkedin {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+.fa-github {
+  color: var(--secondary-color);
+  font-size: 20px;
+}
+
+/*About me section*/
+
+.about-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align:  center;
+  color: var(--main-color);
+}
+
+.my-beginings {
+  font-weight: 700;
+  font-size: 2rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.aboutme-inside {
+  width: 70%;
+  margin-inline: auto;
+}
+
+.about-me {
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+
+.my-story {
+  padding-block: 12px;
+}
+
+.skills-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.skills-list {
+  font-size: 1.2em;
+}
+
+/*Projects Page*/
+.projects-page {
+  background: var(--main-color); 
+  clip-path: polygon(31% 11%, 69% 11%, 100% 0, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0 0);
+}
+
+.project-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align:  center;
+  color: var(--main-color);
+}
+
+.projectPage-content {
+  padding-top: 60px;
+}
+
+.flex-rows {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-option-mobile {
+  display: none;
+}
+
+.custom-img-project {
+  padding-top: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.custom-img-project:hover {
+  width: 320px;
+  height: 320px;
+}
+
+/*mobile-view styling*/
+
+@media all and (max-width: 786px) {
+  .navbar-option-mobile {
+    display: block;
+    width: 100vw;
+    height: 45px;
+    position: fixed;
+    z-index: 44;
+  }
+  .flex-rows {
+    flex-direction: column;
+    justify-content: start;
+    
+  }
+  
+  .navbar-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    transform: translateX(-700px);
+  }
+
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .navbar-fixed-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+  }
+
+  .px-9 {
+    padding-inline: 0px;
+  }
+
+  .px-10 {
+    padding-inline: 10px;
+  }
+
+  .page-links {
+    padding-block: 20px;
+  }
+  .page-links:hover {
+    text-decoration: underline;
+    color: var(--secondary-color);
+  }
+
+
+
+  .logo {
+    font-size: 1.4rem;
+    padding-inline: 22px;
+    margin-top: 6px;
+  }
+
+  .bars-btn {
+    height: 4px;
+    width: 40px;
+    background: var(--secondary-color);
+    z-index: 33;
+    float: right;
+    transform: translateY(30px);
+  }
+  .bars-btn::before {
+    display: block;
+    position: relative;
+    top: 8px;
+    content: "";
+    color: var(--secondary-color);
+    width: 40px;
+    height: 4px;
+    background: var(--secondary-color);
+  }
+
+  .bars-btn::after {
+    display: block;
+    position: relative;
+    bottom: 12px;
+    content: "";
+    color: var(--secondary-color);
+    width: 40px;
+    height: 4px;
+    background: var(--secondary-color);
+  }
+
+  .In-text {
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+  }
+
+  .Im-student {
+    font-size: 21px;
+    color: var(--secondary-color);
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+  }
+
+  .about-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-block: 24px;
+    text-decoration: none;
+  }
+
+  .project-btn{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-block: 24px;
+    text-decoration: none;
+  }
+
+  .about-me {
+    font-size: 1.2rem;
+
+  }
+  .projects-page {
+    clip-path: polygon(31% 7%, 66% 7%, 100% 0, 100% 70%, 70% 100%, 30% 100%, 0 70%, 0 0);
+  }
+
+  .aboutme-inside {
+    width: 96%;
+  }
+
+  .project-heading {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align:  center;
+    color: var(--main-color);
+    
+  }
+
+  .custom-img-project {
+    padding-top: 40px;
+    width: 200px;
+    height: inherit;
+    border-radius: 25%;
+    justify-content: center;
+    object-fit: contain;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

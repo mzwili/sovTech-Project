@@ -5,7 +5,7 @@ This is a simple SPA Portfolio and it was my first time using React.
 
 ## Live Application URL
 
-### https://aditya-sridhar.github.io/simple-reactjs-app
+### [https://aditya-sridhar.github.io/simple-reactjs-app](https://friendly-rolypoly-cd8018.netlify.app)
 This URL has the application deployed in
 
 ## Prerequisites

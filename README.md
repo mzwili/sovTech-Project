@@ -1,7 +1,7 @@
 This is a simple SPA Portfolio and it was my first time using React.
 
 ## Preview
-![Preview](https://ibb.co/nknm9jf)
+![Preview](images/react-portfolio.png)
 
 ## Live Application URL
 

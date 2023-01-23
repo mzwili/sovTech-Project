@@ -35,7 +35,7 @@ export default function App(){
             </p>
             <div className="contact-icons d-flex flex-row justify-content-around">
               <a href="mailt:mthiyanemzwili@gmail.com" target="_blank" rel="noopener noreferrer"><span className="email-icon"><i class="fa-solid fa-envelope"></i></span></a>
-              <a href="linkedin.com/in/mzwi-linked" target="_blank" rel="noopener noreferrer"><span className="linkedIn-icon"><i class="fa-brands fa-linkedin"></i></span></a>
+              <a href="https://www.linkedin.com/in/mzwi-linked/" target="_blank" rel="noopener noreferrer"><span className="linkedIn-icon"><i class="fa-brands fa-linkedin"></i></span></a>
               <a href="https://github.com/mzwili" target="_blank" rel="noopener noreferrer"><span className="github-icon"><i class="fa-brands fa-github"></i></span></a>
             </div>
             <div className="button-section d-flex flex-row justify-content-center mt-5">
